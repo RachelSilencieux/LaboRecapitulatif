@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B703BC73-C43F-43F4-99D3-952C7D8BFB44}|IdeaManager.Tests\\IdeaManager.Tests.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703BC73-C43F-43F4-99D3-952C7D8BFB44}|IdeaManager.Tests\\IdeaManager.Tests.csproj|solutionrelative:ideamanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2DD01E-128A-4ED7-8378-8CBDB4AF48A5}|IdeaManager.UI\\IdeaManager.UI.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7B2DD01E-128A-4ED7-8378-8CBDB4AF48A5}|IdeaManager.UI\\IdeaManager.UI.csproj|solutionrelative:ideamanager.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2DD01E-128A-4ED7-8378-8CBDB4AF48A5}|IdeaManager.UI\\IdeaManager.UI.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2DD01E-128A-4ED7-8378-8CBDB4AF48A5}|IdeaManager.UI\\IdeaManager.UI.csproj|solutionrelative:ideamanager.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0303C2-B213-4999-8C04-C381770B578F}|IdeaManager.Services\\IdeaManager.Services.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0303C2-B213-4999-8C04-C381770B578F}|IdeaManager.Services\\IdeaManager.Services.csproj|solutionrelative:ideamanager.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA2202-5899-4369-B384-6764AF68AED6}|IdeaManager.Data\\IdeaManager.Data.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDBA2202-5899-4369-B384-6764AF68AED6}|IdeaManager.Data\\IdeaManager.Data.csproj|solutionrelative:ideamanager.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35CC64B7-05F9-47A7-92D9-4BC069C68FBC}|IdeaManager.Core\\IdeaManager.Core.csproj|c:\\users\\utilisateur\\onedrive - c\u00E9gep marie-victorin\\hiver2025\\developpement_entreprise\\ideamanager\\ideamanager.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35CC64B7-05F9-47A7-92D9-4BC069C68FBC}|IdeaManager.Core\\IdeaManager.Core.csproj|solutionrelative:ideamanager.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "IdeaManager.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "IdeaManager.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:27:04.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "IdeaManager.UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\MainWindow.xaml",
+              "RelativeToolTip": "IdeaManager.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T15:25:46.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "IdeaManager.UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "IdeaManager.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:25:46.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\Class1.cs",
+              "RelativeDocumentMoniker": "IdeaManager.Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\Class1.cs",
+              "RelativeToolTip": "IdeaManager.Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:21:45.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "IdeaManager.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\Class1.cs",
+              "RelativeToolTip": "IdeaManager.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:21:08.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "IdeaManager.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\OneDrive - C\u00E9gep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\Class1.cs",
+              "RelativeToolTip": "IdeaManager.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:20:22.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

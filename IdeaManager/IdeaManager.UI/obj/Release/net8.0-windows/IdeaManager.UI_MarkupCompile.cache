@@ -1,0 +1,20 @@
+﻿IdeaManager.UI
+
+
+winexe
+C#
+.cs
+C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\LaboRecapitulatif\IdeaManager\IdeaManager.UI\obj\Release\net8.0-windows\
+IdeaManager.UI
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\LaboRecapitulatif\IdeaManager\IdeaManager.UI\App.xaml
+4-837071556
+
+92131514900
+221848328394
+MainWindow.xaml;Resources\Styles.xaml;Views\IdeaFormView.xaml;Views\IdeaListView.xaml;
+
+True
+
