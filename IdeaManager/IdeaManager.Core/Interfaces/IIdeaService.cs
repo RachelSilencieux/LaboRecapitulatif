@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using IdeaManager.Core.Entities;
 
 namespace IdeaManager.Core.Interfaces
 {
-    internal interface IIdeaService
+    public interface IIdeaService
     {
+        Task<List<Idea>> GetAllIdeasAsync();
+        Task SubmitIdeaAsync(Idea idea);
+        Task VoteForIdeaAsync(int ideaId);
     }
 }
