@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\IdeaManager\IdeaManager.UI\obj\Debug\net8.0-windows\
+C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\LaboRecapitulatif\IdeaManager\IdeaManager.UI\obj\Debug\net8.0-windows\
 IdeaManager.UI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\IdeaManager\IdeaManager.UI\App.xaml
-4-837071556
+C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\LaboRecapitulatif\IdeaManager\IdeaManager.UI\App.xaml
+547204353
 
-11-929305239
-221-1053583623
-MainWindow.xaml;Resources\Styles.xaml;Views\IdeaFormView.xaml;Views\IdeaListView.xaml;
+17-615227304
+221-2048302583
+MainWindow.xaml;Resources\Styles.xaml;Views\DashboardView.xaml;Views\IdeaFormView.xaml;Views\IdeaListView.xaml;
 
-True
+False
 

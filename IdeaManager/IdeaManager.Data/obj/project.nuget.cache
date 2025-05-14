@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VVSwYsj/QAw=",
+  "dgSpecHash": "UOI0qHK0D8k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
+  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utilisateur\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

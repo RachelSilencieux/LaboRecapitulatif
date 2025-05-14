@@ -547,6 +547,9 @@
       "IdeaManager.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4"
+        },
         "compile": {
           "bin/placeholder/IdeaManager.Core.dll": {}
         },
@@ -575,6 +578,7 @@
         "dependencies": {
           "IdeaManager.Core": "1.0.0",
           "IdeaManager.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
         },
         "compile": {
@@ -1375,6 +1379,7 @@
       "CommunityToolkit.Mvvm >= 8.4.0",
       "IdeaManager.Core >= 1.0.0",
       "IdeaManager.Services >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.4",
       "Microsoft.Extensions.DependencyInjection >= 9.0.4"
     ]
   },
@@ -1385,11 +1390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
       "projectName": "IdeaManager.UI",
-      "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
+      "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\obj\\",
+      "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1411,11 +1416,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
+            "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
             },
-            "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj"
+            "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj"
             }
           }
         }
@@ -1439,6 +1444,10 @@
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.4.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[9.0.4, )"
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj": {}
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
         "projectName": "IdeaManager.Core",
-        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -70,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj": {
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
         "projectName": "IdeaManager.Data",
-        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
+              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
               }
             }
           }
@@ -156,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj",
         "projectName": "IdeaManager.Services",
-        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -185,11 +191,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
+              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
               },
-              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj"
+              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Data\\IdeaManager.Data.csproj"
               }
             }
           }
@@ -210,6 +216,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -235,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj": {
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
         "projectName": "IdeaManager.UI",
-        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -264,11 +274,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
+              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj"
               },
-              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj"
+              "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj": {
+                "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Services\\IdeaManager.Services.csproj"
               }
             }
           }
@@ -292,6 +302,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",

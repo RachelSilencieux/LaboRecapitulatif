@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IdeaManager.Core.Entities
 {
-    internal class User
+    public class User
     {
     }
 }

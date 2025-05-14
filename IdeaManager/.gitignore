@@ -1,0 +1,16 @@
+# Ignore .NET build files
+bin/
+obj/
+
+# Visual Studio folders
+.vs/
+*.user
+*.suo
+
+# Temporary files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db

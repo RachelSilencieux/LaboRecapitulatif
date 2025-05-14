@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ld0k4tJbADQ=",
+  "dgSpecHash": "v8mo2vGiZwE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
+  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.UI\\IdeaManager.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utilisateur\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.4\\microsoft.data.sqlite.core.9.0.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zVSQm5SOfR0=",
+  "dgSpecHash": "SfPMi3+/I7s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManager\\IdeaManager.Tests\\IdeaManager.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Tests\\IdeaManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utilisateur\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Utilisateur\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
