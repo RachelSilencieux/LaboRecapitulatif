@@ -6,11 +6,8 @@ namespace IdeaManager.Core.Interfaces
     {
         Task<List<User>> GetAllUsersAsync();
         Task<User?> GetUserByIdAsync(int id);
-        Task<User?> GetUserByEmailAsync(string email);
         Task AddUserAsync(User user);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int id);
-        Task<bool> UserExistsAsync(int id);
-        Task<bool> UserExistsByEmailAsync(string email);
-    }
+        Task<bool> UserExistsAsync(int id);    }
 }

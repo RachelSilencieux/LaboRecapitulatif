@@ -9,5 +9,6 @@ namespace IdeaManager.Core.Interfaces
         Task<List<Idea>> GetAllIdeasAsync();
         Task SubmitIdeaAsync(Idea idea);
         Task VoteForIdeaAsync(int ideaId);
+
     }
 }

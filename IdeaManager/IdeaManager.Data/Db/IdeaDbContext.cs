@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Microsoft.EntityFrameworkCore;
 using IdeaManager.Core.Entities;
 using IdeaManager.Data.Configurations;
@@ -16,10 +11,13 @@ namespace IdeaManager.Data.Db
         public DbSet<Idea> Ideas => Set<Idea>();
         public DbSet<User> Users => Set<User>();
         public DbSet<Vote> Votes => Set<Vote>();
-
+        public DbSet<Project> Projects => Set<Project>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.ApplyConfiguration(new IdeaConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new VoteConfiguration());
+            modelBuilder.ApplyConfiguration(new ProjectConfiguration());
         }
     }   
   
