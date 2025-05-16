@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Utilisateur\OneDrive - Cégep Marie-Victorin\Hiver2025\Developpement_Entreprise\LaboRecapitulatif\IdeaManager\IdeaManager.UI\App.xaml
-547204353
+6-1647374055
 
-15-1525630229
+16989868267
 221-2048302583
-MainWindow.xaml;Resources\Styles.xaml;Views\DashboardView.xaml;Views\IdeaFormView.xaml;Views\IdeaListView.xaml;
+MainWindow.xaml;Resources\Styles.xaml;Views\DashboardView.xaml;Views\IdeaFormView.xaml;Views\IdeaListView.xaml;Views\MenuView.xaml;
 
 True
 

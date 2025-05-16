@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdeaManager.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1e8c5139193e770980f49977adf8b7a2874321")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01ddcce54790cb7686ec8e0a281e0c2b3d847229")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdeaManager.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdeaManager.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

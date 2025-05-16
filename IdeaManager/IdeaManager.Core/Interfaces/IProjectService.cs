@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IdeaManager.UI.Navigation
+namespace IdeaManager.Core.Interfaces
 {
-    public class NavigationService
+    public interface IProjectService
     {
-
     }
 }

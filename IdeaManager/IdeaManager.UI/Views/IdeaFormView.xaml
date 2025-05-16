@@ -5,8 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IdeaManager.UI.Views"
         mc:Ignorable="d"
-        Title="IdeaFormView" Height="450" Width="800">
+        Title="Idea Form" Height="500" Width="800">
+
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0" Background="#802B6A">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Form Idea"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           FontFamily="Istok Web"
+                           Foreground="White"
+                           Margin="5"/>
+            </StackPanel>
+        </DockPanel>
+
+        <StackPanel Grid.Column="1" Margin="20">
+            <Label Content="ID"/>
+            <TextBox Name="IdeaId" Width="200" Margin="0,0,0,10"/>
+
+            <Label Content="Title *" Foreground="Red"/>
+            <TextBox Name="IdeaTitle" Width="200" Margin="0,0,0,10" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+            <TextBlock Name="IdeaTitleError" Foreground="Red" Margin="0,0,0,10" FontSize="11" Text="{Binding Required}"/>
+
+            <Label Content="Description"/>
+            <TextBox Name="IdeaDescription" Width="200" Height="100"
+                     TextWrapping="Wrap" AcceptsReturn="True"
+                     Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}"
+                     Margin="0,0,0,10"/>
+
+            <Label Content="Created At"/>
+            <TextBlock Name="IdeaCreatedAt" Width="200" FontSize="14"
+                       FontWeight="Bold" Margin="0,0,0,10"
+                       Text="{Binding CreatedAt}"
+                       />
+
+            <Label Content="Status"/>
+            <ComboBox Name="IdeaStatus" 
+                      Width="200"
+                      SelectedItem="{Binding Status, Mode=TwoWay}"
+                      >
+                <ComboBoxItem Content="Pending"/>
+                <ComboBoxItem Content="Approved"/>
+                <ComboBoxItem Content="Rejected"/>
+                <ComboBoxItem Content="In Progress"/>
+                <ComboBoxItem Content="Completed"/>
+            </ComboBox>
+
+            <Label Content="Vote Count"/>
+            <TextBox Name="IdeaVoteCount" Width="200" Margin="0,0,0,10" Text="0"/>
+
+            <Button 
+                Content="Submit" 
+                Width="200" 
+                Height="30" 
+                Margin="10"
+                Command="{Binding SubmitAsync}"
+                />
+        </StackPanel>
     </Grid>
 </Window>

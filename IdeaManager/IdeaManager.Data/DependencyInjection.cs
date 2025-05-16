@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using IdeaManager.Core.Entities;
+using IdeaManager.Core.Interfaces;
 using IdeaManager.Data.Db;
+using IdeaManager.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -16,6 +13,12 @@ namespace IdeaManager.Data
         {
             services.AddDbContext<IdeaDbContext>(options =>
                 options.UseSqlite(connectionString));
+
+            services.AddScoped<IRepository<Idea>, GenericRepository<Idea>>();
+            services.AddScoped<IRepository<User>, GenericRepository<User>>();
+            services.AddScoped<IRepository<Vote>, GenericRepository<Vote>>();
+            services.AddScoped<IRepository<Project>, GenericRepository<Project>>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using IdeaManager.UI.ViewModels;
 
 namespace IdeaManager.UI.Views
 {
@@ -22,6 +23,7 @@ namespace IdeaManager.UI.Views
         public IdeaFormView()
         {
             InitializeComponent();
+            DataContext = new IdeaFormViewModel();
         }
     }
 }

@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IdeaManager.UI.Views"
         mc:Ignorable="d"
-        Title="IdeaListView" Height="450" Width="800">
+        Title="IdeaListView" Height="500" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0" Background="#802B6A">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Idea List"
+                   FontSize="30"
+                   FontWeight="Bold"
+                   FontFamily="Istok Web"
+                   Foreground="White"
+                   Margin="5"/>
+            </StackPanel>
+        </DockPanel>
+
+        <StackPanel Grid.Column="1">
+            <ListView ItemsSource="{Binding Ideas}"
+                      SelectedItem="{Binding SelectedItea, Mode=TwoWay}"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}" 
+                                   FontSize="16" 
+                                   FontWeight="Bold" 
+                                   Margin="5" 
+                                   Foreground="Black"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackPanel>
+
+       
     </Grid>
 </Window>

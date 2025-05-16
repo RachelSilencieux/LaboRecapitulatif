@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using IdeaManager.UI.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace IdeaManager.UI
 {
-    internal class DependencyInjection
+    public static class DependencyInjection
     {
+        public static IServiceCollection AddUIServices(this IServiceCollection services)
+        {
+            services.AddSingleton<MainWindow>();
+            services.AddTransient<DashboardViewModel>();
+            services.AddTransient<IdeaFormViewModel>();
+            services.AddTransient<ProjectListViewModel>();
+            services.AddTransient<IdeaListViewModel>();
+            return services;
+        }
     }
 }
