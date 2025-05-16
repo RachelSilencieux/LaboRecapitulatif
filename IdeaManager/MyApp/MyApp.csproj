@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdeaManager.Core\IdeaManager.Core.csproj" />
+    <ProjectReference Include="..\IdeaManager.Data\IdeaManager.Data.csproj" />
+    <ProjectReference Include="..\IdeaManager.Services\IdeaManager.Services.csproj" />
+    <ProjectReference Include="..\IdeaManager.Tests\IdeaManager.Tests.csproj" />
+    <ProjectReference Include="..\IdeaManager.UI\IdeaManager.UI.csproj" />
+  </ItemGroup>
+
+</Project>

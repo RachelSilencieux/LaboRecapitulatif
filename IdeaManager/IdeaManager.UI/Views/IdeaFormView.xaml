@@ -64,7 +64,7 @@
                 Width="200" 
                 Height="30" 
                 Margin="10"
-                Command="{Binding SubmitAsync}"
+                Command="{Binding SubmitAsyncCommand}"
                 />
         </StackPanel>
     </Grid>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdeaManager.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01ddcce54790cb7686ec8e0a281e0c2b3d847229")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64d3c6c6d21ac90252b4ae673f9e0d38a274cee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdeaManager.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdeaManager.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

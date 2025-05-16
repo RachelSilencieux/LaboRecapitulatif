@@ -20,10 +20,10 @@ namespace IdeaManager.UI.Views
     /// </summary>
     public partial class IdeaListView : Window
     {
-        public IdeaListView(IdeaListViewModel viewModel)
+        public IdeaListView()
         {
             InitializeComponent();
-            DataContext = viewModel;
+            DataContext = new IdeaListViewModel();
         }
     }
 }

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using IdeaManager.Services.Services;
 using IdeaManager.UI.ViewModels;
 
 namespace IdeaManager.UI.Views

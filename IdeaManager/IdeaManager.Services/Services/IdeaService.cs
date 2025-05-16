@@ -17,19 +17,19 @@ namespace IdeaManager.Services.Services
             _unitOfWork = unitOfWork;
         }
 
+        public IdeaService() { }
         public async Task SubmitIdeaAsync(Idea idea)
         {
-            if(string.IsNullOrWhiteSpace(idea.Title))
-            {
+            if (string.IsNullOrWhiteSpace(idea.Title))
                 throw new ArgumentException("Le titre est obligatoire.");
 
-                idea.VotesCount = 0;
-                idea.Status = IdeaStatus.InProgress;
+            idea.VotesCount = 0;
+            idea.Status = IdeaStatus.InProgress;
 
-                await _unitOfWork.IdeaRepository.AddAsync(idea);
-                await _unitOfWork.SaveChangesAsync();
-            }
+            await _unitOfWork.IdeaRepository.AddAsync(idea);
+            await _unitOfWork.SaveChangesAsync();
         }
+
 
         public async Task<List<Idea>> GetAllIdeasAsync()
         {
@@ -41,12 +41,11 @@ namespace IdeaManager.Services.Services
             var idea = await _unitOfWork.IdeaRepository.GetByIdAsync(ideaId);
 
             if (idea == null)
-            {
                 throw new InvalidOperationException("Idée non trouvée.");
 
-                idea.VotesCount++;
-                await _unitOfWork.IdeaRepository.AddAsync(idea);
-            }
+            idea.VotesCount++;
+            await _unitOfWork.IdeaRepository.AddAsync(idea);
         }
+
     }
 }

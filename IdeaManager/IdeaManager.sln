@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManager.UI", "IdeaManag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaManager.Tests", "IdeaManager.Tests\IdeaManager.Tests.csproj", "{B703BC73-C43F-43F4-99D3-952C7D8BFB44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{40AB9EC2-1D0D-4619-8EB2-E8523C9AF3ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B703BC73-C43F-43F4-99D3-952C7D8BFB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B703BC73-C43F-43F4-99D3-952C7D8BFB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B703BC73-C43F-43F4-99D3-952C7D8BFB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AB9EC2-1D0D-4619-8EB2-E8523C9AF3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AB9EC2-1D0D-4619-8EB2-E8523C9AF3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AB9EC2-1D0D-4619-8EB2-E8523C9AF3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AB9EC2-1D0D-4619-8EB2-E8523C9AF3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

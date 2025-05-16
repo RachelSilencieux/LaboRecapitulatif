@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {}
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManagerProject\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
+    "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManagerProject\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManagerProject\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
         "projectName": "IdeaManager.Core",
-        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManagerProject\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\IdeaManager.Core.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\OneDrive - Cégep Marie-Victorin\\Hiver2025\\Developpement_Entreprise\\IdeaManagerProject\\LaboRecapitulatif\\IdeaManager\\IdeaManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
