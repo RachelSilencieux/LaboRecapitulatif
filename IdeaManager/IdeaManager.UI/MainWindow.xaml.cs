@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using IdeaManager.UI.ViewModels;
+using IdeaManager.UI.Views;
 
 namespace IdeaManager.UI
 {
@@ -19,6 +21,8 @@ namespace IdeaManager.UI
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
     }
 }

@@ -5,27 +5,27 @@ using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace IdeaManager.Tests;
 
-[TestClass]
 public class IdeaServiceTests
 {
-    [TestMethod]
+    [Fact]
     public async Task AddIdea_Test()
     {
         var fakeRepoIdea = new FakeIdeaRepository();
+
         var idea = new Idea
         {
             Id = 1,
-            Title = "Ceci est un test",
-            Description = "description du test",
+            Title = "Test Idea",
+            Description = "This is a test idea.",
             VotesCount = 0,
             Status = IdeaStatus.InProgress
         };
 
         await fakeRepoIdea.AddAsync(idea);
-        var result = await fakeRepoIdea.GetAllAsync();
+        var allIdeas = await fakeRepoIdea.GetByIdAsync(1);
 
-        Assert.AreEqual(1, result.Count);
-        Assert.AreEqual(idea.Title, result[0].Title);
+        Assert.IsNotNull(allIdeas);
+        Assert.Equals("New idea", allIdeas.Title);
 
     }
 }

@@ -5,10 +5,9 @@ using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace IdeaManager.Tests;
 
-[TestClass]
 public class UserServiceTests
 {
-    [TestMethod]
+    [Fact]
     public async Task AddUser_Test()
     {
         var fakeRepoUser = new FakeUserRepository();

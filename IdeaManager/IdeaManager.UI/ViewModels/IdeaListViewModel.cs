@@ -13,44 +13,24 @@ namespace IdeaManager.UI.ViewModels
 {
     public partial class IdeaListViewModel : ObservableObject
     {
+        [ObservableProperty]
+        private ObservableCollection<Idea> ideas = new();
+
         private readonly IIdeaService _ideaService;
 
         public IdeaListViewModel(IIdeaService ideaService)
         {
             _ideaService = ideaService;
-            LoadAsync();
+            LoadIdeasAsync();
         }
 
-        public IdeaListViewModel() { }
-
-        [ObservableProperty]
-        private ObservableCollection<Idea> ideas = new ObservableCollection<Idea>();
-
-        [ObservableProperty]
-        private string title;
-
-
-        [ObservableProperty]
-        private Idea selectedIdea;
-
-        private async Task LoadAsync()
+        public async Task LoadIdeasAsync()
         {
-            var ideas = await _ideaService.GetAllIdeasAsync();
-
-            if (!string.IsNullOrEmpty(title))
-            {
-                ideas = ideas.Where(i => i.Title.Contains(title, StringComparison.OrdinalIgnoreCase)).ToList();
-            }
-
-            if (ideas != null)
-            {
-                Ideas.Clear();
-                foreach (var idea in ideas)
-                {
-                    Ideas.Add(idea);
-                }
-            }
-
+            var fetchedIdeas = await _ideaService.GetAllIdeasAsync();
+            Ideas.Clear();
+            foreach (var idea in fetchedIdeas)
+                Ideas.Add(idea);
         }
+
     }
 }

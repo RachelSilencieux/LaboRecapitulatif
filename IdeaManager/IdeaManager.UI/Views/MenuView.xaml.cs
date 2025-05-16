@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using IdeaManager.Core.Interfaces;
+using IdeaManager.Data.Db;
+using IdeaManager.Data.Repositories;
+using IdeaManager.Services.Services;
 using IdeaManager.UI.ViewModels;
 
 namespace IdeaManager.UI.Views
@@ -26,16 +29,45 @@ namespace IdeaManager.UI.Views
             InitializeComponent();
         }
 
+
         private void IdeaList_Click(object sender, RoutedEventArgs e)
         {
-            IdeaListView ideaListView = new IdeaListView();
+            var dbContext = new IdeaDbContext();
+
+            var ideaRepository = new IdeaRepository(dbContext);
+            var userRepository = new UserRepository(dbContext);
+            var voteRepository = new VoteRepository(dbContext);
+            var projectRepository = new ProjectRepository(dbContext);
+
+            var unitOfWork = new UnitOfWork(dbContext, ideaRepository, userRepository, voteRepository, projectRepository);
+
+            IIdeaService ideaService = new IdeaService(unitOfWork);
+
+            var viewModel = new IdeaListViewModel(ideaService);
+
+            var ideaListView = new IdeaListView(viewModel);
             ideaListView.Show();
             this.Close();
         }
 
+
+
         private void IdeaForm_Click(object sender, RoutedEventArgs e)
         {
-            IdeaFormView ideaFormView = new IdeaFormView();
+            var dbContext = new IdeaDbContext();
+
+            var ideaRepository = new IdeaRepository(dbContext);
+            var userRepository = new UserRepository(dbContext);
+            var voteRepository = new VoteRepository(dbContext);
+            var projectRepository = new ProjectRepository(dbContext);
+
+            var unitOfWork = new UnitOfWork(dbContext, ideaRepository, userRepository, voteRepository, projectRepository);
+
+            IIdeaService ideaService = new IdeaService(unitOfWork);
+
+            var viewModel = new IdeaFormViewModel(ideaService);
+
+            var ideaFormView = new IdeaFormView(viewModel);
             ideaFormView.Show();
             this.Close();
         }

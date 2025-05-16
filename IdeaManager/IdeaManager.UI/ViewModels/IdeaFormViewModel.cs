@@ -13,19 +13,6 @@ namespace IdeaManager.UI.ViewModels
 {
     public partial class IdeaFormViewModel : ObservableObject
     {
-        private readonly IIdeaService _ideaService;
-
-        [ObservableProperty]
-        private ObservableCollection<Idea> ideas = new ObservableCollection<Idea>();
-
-        public IdeaFormViewModel(IIdeaService ideaService)
-        {
-            _ideaService = ideaService;
-            LoadAsync();
-        }
-
-        public IdeaFormViewModel() { }
-
         [ObservableProperty]
         private string title;
 
@@ -33,82 +20,45 @@ namespace IdeaManager.UI.ViewModels
         private string description;
 
         [ObservableProperty]
-        private DateTime createdAt = DateTime.UtcNow;
-
-        [ObservableProperty]
-        private IdeaStatus status;
-
-        [ObservableProperty]
-        private int vote;
-
-        [ObservableProperty]
         private string errorMessage;
 
         [ObservableProperty]
-        private string required;
+        private string successMessage;
 
-        [RelayCommand]
-        private void ValidateTitle(string value)
+        private readonly IIdeaService _ideaService;
+
+        public IdeaFormViewModel(IIdeaService ideaService)
         {
-            if (string.IsNullOrWhiteSpace(value))
-            {
-                required = "Title is required.";
-            }
-            else
-            {
-                required = string.Empty;
-            }
+            _ideaService = ideaService;
         }
 
         [RelayCommand]
         private async Task SubmitAsync()
         {
+            ErrorMessage = string.Empty;
+            SuccessMessage = string.Empty;
+
+            if (string.IsNullOrWhiteSpace(Title))
+            {
+                ErrorMessage = "Le titre est obligatoire.";
+                return;
+            }
+
+            var idea = new Idea { Title = Title, Description = Description };
+
             try
             {
-                ValidateTitle(title);
-                if (!string.IsNullOrEmpty(required))
-                {
-                    errorMessage = required;
-                    return;
-                }
-
-                var idea = new Idea
-                {
-                    Title = title,
-                    Description = description,
-                    CreatedAt = createdAt,
-                    Status = status,
-                    VotesCount = vote
-                };
-
                 await _ideaService.SubmitIdeaAsync(idea);
-                errorMessage = string.Empty;
+
+                Title = string.Empty;
+                Description = string.Empty;
+
+                SuccessMessage = "Idée ajoutée avec succès !";
             }
             catch (Exception ex)
             {
-                errorMessage = ex.Message;
+                ErrorMessage = $"Erreur : {ex.Message}";
             }
         }
-
-        private async Task LoadAsync()
-        {
-            try
-            {
-                var Fetchideas = await _ideaService.GetAllIdeasAsync();
-                ideas.Clear();
-
-                foreach (var idea in Fetchideas)
-                {
-                    ideas.Add(idea);
-                }
-            }
-            catch (Exception ex)
-            {
-                errorMessage = ex.Message;
-
-            }
-        }
-
-      
     }
-}
+ }

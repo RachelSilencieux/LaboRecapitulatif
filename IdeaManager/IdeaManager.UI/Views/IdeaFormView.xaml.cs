@@ -1,30 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using IdeaManager.Data.Repositories;
 using IdeaManager.Services.Services;
 using IdeaManager.UI.ViewModels;
+using IdeaManager.Core.Interfaces;
+using System.Windows;
 
 namespace IdeaManager.UI.Views
 {
-    /// <summary>
-    /// Logique d'interaction pour IdeaFormView.xaml
-    /// </summary>
     public partial class IdeaFormView : Window
     {
-        public IdeaFormView()
+        public IdeaFormView(IdeaFormViewModel viewModel)
         {
             InitializeComponent();
-            DataContext = new IdeaFormViewModel();
+            DataContext = viewModel;
         }
     }
 }

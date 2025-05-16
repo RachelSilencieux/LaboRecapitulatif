@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IdeaManager.UI.Views"
         mc:Ignorable="d"
-        Title="Idea Form" Height="500" Width="800">
+        Title="Idea Form" Height="300" Width="800">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -25,9 +25,7 @@
         </DockPanel>
 
         <StackPanel Grid.Column="1" Margin="20">
-            <Label Content="ID"/>
-            <TextBox Name="IdeaId" Width="200" Margin="0,0,0,10"/>
-
+      
             <Label Content="Title *" Foreground="Red"/>
             <TextBox Name="IdeaTitle" Width="200" Margin="0,0,0,10" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
             <TextBlock Name="IdeaTitleError" Foreground="Red" Margin="0,0,0,10" FontSize="11" Text="{Binding Required}"/>
@@ -38,26 +36,7 @@
                      Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}"
                      Margin="0,0,0,10"/>
 
-            <Label Content="Created At"/>
-            <TextBlock Name="IdeaCreatedAt" Width="200" FontSize="14"
-                       FontWeight="Bold" Margin="0,0,0,10"
-                       Text="{Binding CreatedAt}"
-                       />
-
-            <Label Content="Status"/>
-            <ComboBox Name="IdeaStatus" 
-                      Width="200"
-                      SelectedItem="{Binding Status, Mode=TwoWay}"
-                      >
-                <ComboBoxItem Content="Pending"/>
-                <ComboBoxItem Content="Approved"/>
-                <ComboBoxItem Content="Rejected"/>
-                <ComboBoxItem Content="In Progress"/>
-                <ComboBoxItem Content="Completed"/>
-            </ComboBox>
-
-            <Label Content="Vote Count"/>
-            <TextBox Name="IdeaVoteCount" Width="200" Margin="0,0,0,10" Text="0"/>
+           
 
             <Button 
                 Content="Submit" 
@@ -66,6 +45,7 @@
                 Margin="10"
                 Command="{Binding SubmitAsyncCommand}"
                 />
+            <TextBlock Text="{Binding SuccessMessage}" Foreground="Green" FontWeight="Bold" Margin="0,10,0,0"/>
         </StackPanel>
     </Grid>
 </Window>

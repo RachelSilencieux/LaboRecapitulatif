@@ -17,7 +17,6 @@ namespace IdeaManager.Services.Services
             _unitOfWork = unitOfWork;
         }
 
-        public IdeaService() { }
         public async Task SubmitIdeaAsync(Idea idea)
         {
             if (string.IsNullOrWhiteSpace(idea.Title))

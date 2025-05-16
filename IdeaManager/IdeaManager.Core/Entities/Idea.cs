@@ -1,4 +1,4 @@
-﻿
+﻿ 
 using IdeaManager.Core.Enums;
 
 namespace IdeaManager.Core.Entities

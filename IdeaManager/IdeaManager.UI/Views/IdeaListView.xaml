@@ -24,20 +24,16 @@
         </DockPanel>
 
         <StackPanel Grid.Column="1">
-            <ListView ItemsSource="{Binding Ideas}"
-                      SelectedItem="{Binding SelectedItea, Mode=TwoWay}"
-                      >
-                <ListView.ItemTemplate>
+            <ListBox ItemsSource="{Binding Ideas}">
+                <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <TextBlock Text="{Binding Title}" 
-                                   FontSize="16" 
-                                   FontWeight="Bold" 
-                                   Margin="5" 
-                                   Foreground="Black"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Title}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Description}" FontStyle="Italic"/>
+                        </StackPanel>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            
+                </ListBox.ItemTemplate>
+            </ListBox>
         </StackPanel>
 
        

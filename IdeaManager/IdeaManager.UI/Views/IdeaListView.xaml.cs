@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using IdeaManager.Core.Interfaces;
 using IdeaManager.UI.ViewModels;
 
 namespace IdeaManager.UI.Views
@@ -20,10 +21,10 @@ namespace IdeaManager.UI.Views
     /// </summary>
     public partial class IdeaListView : Window
     {
-        public IdeaListView()
+        public IdeaListView(IdeaListViewModel viewModel)
         {
             InitializeComponent();
-            DataContext = new IdeaListViewModel();
+            DataContext = viewModel;
         }
     }
 }
